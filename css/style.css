@@ -6,10 +6,15 @@ FONT SIZES (PX):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 FONT WEIGHTS:
-default: 400 
+default: 400
+Medium: 500
+Semi-bold: 600
+BOld: 700 
 
 LINE HEIGHTS: 
 default: 1
+Small: 1.05
+Paragraph deafult: 1.6
 
 
 --- 02 COLORS
@@ -24,7 +29,7 @@ Greys: #555, #333
 
 
 --- 06 BORDER RADIUS
-
+Default: 8px
 
 --- 07 WHITE SPACE
 
@@ -126,6 +131,45 @@ body {
 
 .logo {
   height: 2.2rem;
+}
+
+/******************************/
+/* NAVIGATION */
+/******************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /******************************/
