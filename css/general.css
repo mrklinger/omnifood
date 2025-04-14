@@ -30,7 +30,10 @@ Shades:
 Accents: 
 Greys: #6f6f6f, #555, #333
 
+
 --- 05 SHADOWS
+
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 
 --- 06 BORDER RADIUS
