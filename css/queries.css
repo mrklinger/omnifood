@@ -6,8 +6,7 @@
 /******************************/
 
 /* 84em = 1344px / 16 */
-@media (max-width: 84em);
- {
+@media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
