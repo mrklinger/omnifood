@@ -1,5 +1,6 @@
-//`
-//
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
 // Updating Copyright year automatically
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
@@ -13,6 +14,7 @@ btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
 
+///////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////
 
 const allLinks = document.querySelectorAll("a:link");
@@ -42,6 +44,8 @@ allLinks.forEach(function (link) {
 });
 
 ///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
 // Sticky Navigation
 const sectionHeroEl = document.querySelector(".section-hero");
 
@@ -68,6 +72,8 @@ const obs = new IntersectionObserver(
 obs.observe(sectionHeroEl);
 
 ///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement("div");
